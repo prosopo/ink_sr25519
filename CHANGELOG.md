@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - E2E: improve call API, remove `build_message` + callback - [#1782](https://github.com/paritytech/ink/pull/1782)
 
-## Version 4.2.0
+## Version 4.1.0
 
 ### Added
 - Persist `Environment` in metadata ‒ [#1741](https://github.com/paritytech/ink/pull/1741)
