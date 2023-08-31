@@ -23,11 +23,11 @@ use ink_ir::{
 pub struct E2EConfig {
     /// Additional contracts that have to be built before executing the test.
     additional_contracts: Vec<String>,
-    /// The [`Environment`](https://docs.rs/ink_env/4.1.0/ink_env/trait.Environment.html) to use
+    /// The [`Environment`](https://docs.rs/ink_env/4.0.0/ink_env/trait.Environment.html) to use
     /// during test execution.
     ///
     /// If no `Environment` is specified, the
-    /// [`DefaultEnvironment`](https://docs.rs/ink_env/4.1.0/ink_env/enum.DefaultEnvironment.html)
+    /// [`DefaultEnvironment`](https://docs.rs/ink_env/4.0.0/ink_env/enum.DefaultEnvironment.html)
     /// will be used.
     environment: Option<syn::Path>,
 }

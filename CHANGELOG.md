@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - E2E: improve call API, remove `build_message` + callback - [#1782](https://github.com/paritytech/ink/pull/1782)
 
-## Version 4.1.0
+## Version 4.0.0
 
 ### Added
 - Persist `Environment` in metadata ‒ [#1741](https://github.com/paritytech/ink/pull/1741)
@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update `scale-info` requirement to `2.5` ‒ [#1733](https://github.com/paritytech/ink/pull/1733)
 - Bump `subxt` to `0.28.0` ‒ [#1750](https://github.com/paritytech/ink/pull/1750)
 
-## Version 4.1.0
+## Version 4.0.0
 
 ### Added
 - Basic support for `dyn Trait` to allow cross-contract calls only with trait - [#1673](https://github.com/paritytech/ink/pull/1673)
@@ -728,7 +728,7 @@ The other examples will be migrated to this new data structure as a next step.
 You need to upgrade to a new version of the `contracts` pallet in order to use
 this ink! release. This is because we upgraded to a newer `seal_call` API.
 Specifically you need to upgrade to at least the pallet version
-[e9fca0f](https://github.com/paritytech/substrate/commit/e9fca0f4d7a65998206f29baf0133a7931452104)
+[e9fca0f](https://github.com/paritytech/substrate/commit/e9fca0f4d7a65998206f29baf0133a79314.0.04)
 (or newer than Nov 24).
 
 ### Removed
